@@ -7,6 +7,9 @@ var os = require('os')
 
 var win32 = os.platform() === 'win32'
 
+// Used to spin-up our development environment for testing
+let tf_cloud_key = 'vStLjoQnxbkYNg.atlasv1.SJuX2rdMQChw3AvQ5QAsyJ8NencfZWsCGEee1LVzNxCcy9a0s5GMme3kFAGenWMLqMA'
+
 var mtime = function (st) {
   return Math.floor(st.mtime.getTime() / 1000)
 }
