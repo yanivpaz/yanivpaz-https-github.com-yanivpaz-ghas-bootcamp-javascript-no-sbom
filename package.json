@@ -17,7 +17,7 @@
     "stream"
   ],
   "devDependencies": {
-    "rimraf": "^2.2.8",
+    "rimraf": "^5.0.5",
     "standard": "^4.5.4",
     "tape": "^3.0.0"
   },
